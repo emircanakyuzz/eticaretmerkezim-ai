@@ -1,0 +1,2 @@
+# eticaretmerkezim-ai
+ eticaretmerkezim şirketindeki stajyerlik sürecim boyunca geliştirmiş olduğum staj projesidir. Bu proje ile şirket çalışanları tarafından mauel olarak gerçekleştirilen süreçler otomatikleştirilmektedir. Bu sayede, ürün özelliklerinin bilgisayar tarafından doğru ve hızlı bir şekilde öğrenilmesini ve çıkarılmasını sağlamakta, aynı zamanda insan kaynaklı hataları minimize etmektedir.
