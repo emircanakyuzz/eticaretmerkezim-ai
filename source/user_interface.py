@@ -168,36 +168,7 @@ class Application:
             self.run_label.config(text=f"Lütfen analiz tamamlanana kadar bekleyiniz...")
             messagebox.showinfo("Analizi Başladı!", "Yapay zeka analizi başladı, lütfen analizin tamamlanmasını bekleyiniz.")
         
-          
-            # # URL sütunundaki görselleri indirme ve tahmin işlemi
-            # for cell in sheet.iter_cols(min_row=2, max_row=sheet.max_row, min_col=url_sutun_index, max_col=url_sutun_index):
-            #     for url_cell in cell:
-            #         if url_cell is None:
-            #             break
-            #         else:    
-            #             file_path = download_image(url_cell.value, self.folder_of_path)
-            #             if file_path:
-            #                 prediction = predict_color(self.model, edit_image(file_path))
-            #                 sheet.cell(row=url_cell.row, column=yapay_zeka_sutun).value = prediction
-            #             else:
-            #                 messagebox.showerror("Hata!", f"{url_cell.value} URL'si indirilemedi.")
-            
             exit_loop = False  # Döngüden çıkmak için bir flag değişkeni oluşturun
-            # for cell in sheet.iter_cols(min_row=2, max_row=sheet.max_row, min_col=url_sutun_index, max_col=url_sutun_index):
-            #     for url_cell in cell:
-            #         if url_cell is None:
-            #             exit_loop = True  # Boş hücreye ulaşıldı, çıkış flag'ini aktif et
-            #             break  # İç döngüden çık
-            #         else:
-            #             file_path = download_image(url_cell.value, self.folder_of_path)
-            #             if file_path:
-            #                 prediction = predict_color(self.model, edit_image(file_path))
-            #                 sheet.cell(row=url_cell.row, column=yapay_zeka_sutun).value = prediction
-            #             else:
-            #                 messagebox.showerror("Hata!", f"{url_cell.value} URL'si indirilemedi.")
-            #     if exit_loop:  # İç döngüden çıktıktan sonra flag kontrolü
-            #         break  # Dış döngüden de çık
-            
             for cell in sheet.iter_cols(min_row=2, max_row=sheet.max_row, min_col=url_sutun_index, max_col=url_sutun_index):
                 for url_cell in cell:
                     if url_cell.value is None:  # URL'nin boş olup olmadığını kontrol edin
@@ -216,7 +187,6 @@ class Application:
                 if exit_loop:
                     break
 
-            
             # Güncellenmiş dosyayı kaydetmek için yeni doysa adı oluşturacağız...
             excel_path = Path(self.excel_file)
             excel_base_name = excel_path.stem  # Eski .xlsx uzantısını kaldırır
