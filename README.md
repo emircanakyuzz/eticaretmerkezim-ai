@@ -29,7 +29,7 @@ Model mimarisi hakkında daha detaylı bilgiye "create_model" klasöründeki "mo
 ## Performans
 Model eğitiminde doğruluk ve hata (loss) grafikleri aşağıdaki gibidir.
 
-GÖRSEL
+![Accuracy and Loss Graphs](images/Accuracy_and_Loss_Graphs.jpg)
 
 Eğitim sonucunda modelin genel ve sınıf bazlı performansı analiz edilmiştir, sonuçlar aşağıda paylaşılmıştır.
 
