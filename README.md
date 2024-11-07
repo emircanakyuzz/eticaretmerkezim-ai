@@ -24,6 +24,7 @@ eticaretmerkezim-AI V1.0 bir MVP ürünüdür de diyebiliriz, yani geliştirileb
 - 6: Mavi,
 - 7: Pembe,
 - 8: Siyah
+
 Model mimarisi hakkında daha detaylı bilgiye "create_model" klasöründeki "model.py" ve "model_mimarisi.jpg" isimli dosyalardan ulaşabilirsiniz.
 
 ## Performans
