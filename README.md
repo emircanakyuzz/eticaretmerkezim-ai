@@ -33,6 +33,6 @@ Model eğitiminde doğruluk ve hata (loss) grafikleri aşağıdaki gibidir.
 
 Eğitim sonucunda modelin genel ve sınıf bazlı performansı analiz edilmiştir, sonuçlar aşağıda paylaşılmıştır.
 
-GÖRSEL
+![Confusion Matrix and Performance Tests](images/Confusion_Matrix_and_Performance_Tests.png)
 
 Modelin renkleri tahmin etme performansı %91' dir. Bazı renklerde bu oran %98' lere kadar çıkabiliyorken bazılarında ise %79' a kadar gerilemektedir.
