@@ -1,5 +1,5 @@
 # eticaretmerkezim_AI_V1.0
- E- Ticaret Merkezim şirketi, Trendyol, Hepsiburada, Pazarama gibi e-ticaret üzerine çalışan firmalara Google SEO çalışmaları üzerine veri bilimi alanında danışmanlık hizmeti vermektedir. Gönüllü stajyerliğim süresince, şirket çalışanları tarafından manuel olarak gerçekleştirilen ve veri bilimi üzerine olan çalışmaların, yapay zeka kullanılarak otonomlaştırılmasını sağlayarak insan hatasından kaynaklı gecikmeleri minimize etmeye çalışmak oldu.
+ E- Ticaret Merkezim şirketi, Trendyol, Hepsiburada, Pazarama gibi e-ticaret üzerine çalışan firmalara Google SEO çalışmaları üzerine veri bilimi alanında danışmanlık hizmeti vermektedir. Gönüllü stajyerliğim süresince, şirket çalışanları tarafından manuel olarak gerçekleştirilen ve veri bilimi üzerine olan çalışmaların, yapay zeka kullanılarak otonomlaştırılmasını sağlayarak insan hatasından kaynaklı gecikmeleri minimize etmeye çalışmak oldu. eticaretmerkezim AI V1.0 yapay zeka programı, veri seti hazırlığından arayüz tasarımına kadar tüm süreçleri ile bana aittir. 
 ## eticaretmerkezim AI V1.0 neler yapıyor?
 
 ![eticaretmerkezim AI V1.0 User Interface](images/eticaretmerkezim_AI_V1.0.jpg)
