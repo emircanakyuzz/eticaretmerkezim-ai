@@ -141,10 +141,10 @@ class Application:
         threading.Thread(target=self.run_process).start()
 
     def run_process(self):
-        # Excel yükleme ve işleme süreci
-        if not self.excel_file and not self.folder_of_path:
-            messagebox.showerror("Hata!", "Excel dosyası ve klasör seçin.")
-            self.ai_excel_file_path = None
+        # Excel yükleme ve işleme süreci                                                                    # "Hayattan dışarı çıkıp soluklansam." diyorsun
+        if not self.excel_file and not self.folder_of_path:                                                 # Bilmediğin onlarca şeyin peşinden koşuyorsun   
+            messagebox.showerror("Hata!", "Excel dosyası ve klasör seçin.")                                 # Hatır için yaşamaktan fazlasını yapmalısın              
+            self.ai_excel_file_path = None                                                                  # Yoksa gece yağınca kapkaranlık olacaksın
         elif not self.excel_file:
             messagebox.showerror("Hata!", "Bir excel dosyası seçin.")
             self.ai_excel_file_path = None
