@@ -43,8 +43,8 @@ def open_excel(file_path):
         else:
             os.startfile(file_path)
 
-def find_url_column(sheet):
-    for col in range(1, sheet.max_column + 1):
+def find_url_column(sheet):                                                                            # Yarışa girmezsen kaybetmen imkânsız
+    for col in range(1, sheet.max_column + 1):                                                         # Üstelik yetmiş, seksen yıl ömrün varmış   
         cell_value = sheet.cell(row=1, column=col).value
         if str(cell_value).lower() == "url":
             return col
